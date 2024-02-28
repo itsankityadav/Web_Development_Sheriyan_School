@@ -8,19 +8,64 @@
 </head>
 <body>
     <!--    
-        !    Div 
-        *    Div ki height nhi hoti hai.
-        *    kisi bhi tag ko id and class dena good baat hoti hai.
-        *    # is id selector and . is class selector.
-        *    using direct tag name to target for css then it is called element selector.
+        !   Div 
+        *   Div ki height nhi hoti hai.
+        *   kisi bhi tag ko id and class dena good baat hoti hai.
+        *   # is id selector and . is class selector.
+        *   using direct tag name to target for css then it is called element selector.
 
-        !    Color and Background color
-        *    color - text color
-        *    background-color = is background-color 
+        !   Color and Background color
+        *   color - text color
+        *   background-color = is background-color 
 
-        !    CSS Units
-        
+        !   CSS Units
+            Paan = liter
+            px % vw vh (max min) em rem
+            What is dpi (dot per inch) and ppi(pixel per inch)?
+
+
     -->
-    <div class="rect1">Hello</div>
+    <!-- <div class="rect1">Hello</div> -->
+    <!-- Test for making div -->
+    <div id="test">
+        Css unit testing
+    </div>
+    <!-- practice and child for % -->
+    <div id="practice">
+        <div id="child">
+            Hello we ara practing %
+        </div>
+    </div>
+    <!-- practice1 and child1 for vh and vw -->
+    <div id="practice1">
+        <div id="child1">
+            Hello we ara practing vh vw 
+        </div>
+    </div>
+
+    <!-- 
+        em - depend on parent...
+        em depend krta hai us element ke font size par, aur ye agar parent ko dete hai to childlren par bhi apply hota hai.
+
+        matlab kchh aisa :
+        
+        conside kariye ek element hai jiske pass 16px font size hai to 1-em ki value 16px hogi aur agar font size change kiya to use response mein em ki value bhi badhegi 
+    -->
+    <div class="emtest">
+        <div class="emtest1">
+            <div class="emtest2">h</div>
+        </div>
+    </div>
+
+    <!-- rem is depend upon the root of the html... -->
+    <div class="remtest">
+        <div class="remtest1">
+            <div class="remtest2">h</div>
+        </div>
+    </div>
+
+    <!-- em and rem both are fixed value like px but it change when we change the font-sizes -->
+
+    
 </body>
 </html>
