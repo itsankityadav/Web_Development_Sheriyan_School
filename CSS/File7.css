@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+p{
+    width: fit-content;
+    position: relative;
+}
+
+/* p::before{
+    position: absolute;
+    top: 100%;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: red;
+} */
+
+/* p::after{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: red;
+} */
+
+/* p::after{
+    content: "Bye";
+    background-color: aqua;
+} */
+
+/* p::before{
+    content: "Hello";
+    background-color: aqua;
+} */
+
+/* .p1::first-line{
+    background-color: blue;
+} */
+
+/* .p1::first-letter{
+    background-color: bisque;
+} */
+
+/* p::selection{
+    color: aqua;
+} */
+
+/*  */
+
+/* .p1:hover{
+    color: blueviolet;
+} */
+
+/* input:focus{
+    background-color: aqua;
+} */
+
+h2:nth-of-type(2){
+    color: aqua;
+}
+
+p:nth-child(2){
+    color: aqua;
+}

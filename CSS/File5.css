@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    /* background: url(gettyimages-1242317006-2048x2048.jpg); */
+    /* background-size: cover; */
+    /* cover contain */
+    /* background-position: top; */
+    /* center top bottom */
+    /* background-repeat: no-repeat; */
+    /* background : linear-gradient(to right bottom, rgb(55, 55, 133),#e1e1e1) */
+    /* to right color1 color2  */
+}
