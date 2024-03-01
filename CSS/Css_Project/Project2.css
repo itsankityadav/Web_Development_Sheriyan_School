@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: grey; */
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding: 0px 30px;
+}
+#nav h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+#nav i{
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+#center{
+    /* background-color: red; */
+    /* height: 45%; */
+    width: 100%;
+    padding: 5px 50px 0px 50px;
+}
+#center h1{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 65px;
+}
+#center-in{
+    height: 200px;
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+#right{
+    width: 20%;
+}
+.elem{
+    /* background-color: yellow; */
+    padding: 15px 0;
+    /* margin: 5px; */
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.elem i{
+    opacity: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+#bottom{
+    height: 40%;
+    width: 100%;
+    background-color: red;
+    background:url(deep16.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
